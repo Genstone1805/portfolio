@@ -76,7 +76,7 @@ export default function ProjectsSection({
         </div>
         <div className="mt-8 flex flex-wrap items-center justify-center gap-3">
           <a
-            href="/Projects"
+            href="/projects"
             className="rounded-2xl bg-gradient-to-br from-purple-600 to-amber-400 px-6 py-3 font-semibold text-[#0a0714] shadow-lg shadow-purple-900/30 transition hover:brightness-110"
           >
             View More

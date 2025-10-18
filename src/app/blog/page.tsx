@@ -1,6 +1,6 @@
 export default function BlogPage() {
   return (
-    <div className="p-10 text-center">
+    <div className="mt-15 p-10 text-center">
       <h1 className="text-3xl font-bold">Blog Page Coming Soon</h1>
     </div>
   );

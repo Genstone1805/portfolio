@@ -265,7 +265,7 @@ export default function ServicesPage() {
       {/* CTA Section */}
       <section
         id="contact"
-        className="px-6 md:px-20 text-center py-14 bg-gradient-to-r from-amber-900/10 to-purple-950/50"
+        className="px-6 md:px-20 text-center py-12 bg-gradient-to-r from-amber-900/10 to-purple-950/50"
       >
         <h2 className="text-2xl md:text-4xl font-bold mb-4">
           Ready to bring your ideas to life?

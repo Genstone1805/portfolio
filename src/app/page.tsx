@@ -15,7 +15,7 @@ const testimonials = [
     name: "Mighticiti",
     quote:
       "Blessing Jacob turned our vision and website experience into a premium digital product that feels world-class. Everyone loves it.",
-    role: "Mighticit Founder",
+    role: "Mighticiti Founder",
   },
   {
     name: "Temi T",
@@ -36,11 +36,11 @@ const projects = () => [
   // },
 
   {
-    title: "Temi’s Trove",
+    title: "Logo and Brand Identity Designs",
     tag: "Logo & Brand Identity",
     description:
       "Designed a warm and premium visual identity with logo, brand colors, and print materials that reflect elegance and trust.",
-    img: "/projects/temistrove-cover.png",
+    img: "/design-awesome-monogram-or-initial-letter-logo.png",
     href: "/projects",
   },
 
@@ -85,16 +85,16 @@ const projects = () => [
     tag: "E-Commerce Website",
     description:
       "Built a fast, energetic online store that reflects the brand’s athletic spirit and premium look.",
-    img: "/impressathletix-cover.png",
+    img: "/RDExpressPrints.PNG",
     href: "/projects",
   },
 
   {
-    title: "Podcast Print Designs",
+    title: "E Magazines and Other Designs",
     tag: "Graphic Design",
     description:
-      "Created social media visuals and print designs for a podcast brand, maintaining a consistent and catchy style.",
-    img: "/ALTE MDT 1_050714.jpg",
+      "Created social media visuals, print designs and a lot more for brands, maintaining consistent and catchy style.",
+    img: "/P4JQUM1.jpg",
     href: "/projects",
   },
 ];

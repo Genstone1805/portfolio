@@ -15,15 +15,16 @@ type Project = {
 const projects: Project[] = [
   {
     id: 1,
-    title: "Temi's Trove Branding",
-    category: "Branding & Graphics",
-    image: "/Temi Trove Fruit Parfait.png",
+    title: "ECS Patches",
+    category: "Website & UI/UX",
+    image: "/ecspatches.png",
+    link: "https://ecspatches.com/",
   },
   {
     id: 2,
-    title: "Flourishmore Electricals Branding",
+    title: "Temi's Trove Branding",
     category: "Branding & Graphics",
-    image: "/FlourishMore1.jpg",
+    image: "/Temi Trove Fruit Parfait.png",
   },
   {
     id: 3,
@@ -34,42 +35,74 @@ const projects: Project[] = [
   },
   {
     id: 4,
-    title: "Podcast Social Media Ads",
+    title: "Flourishmore Electricals Branding",
+    category: "Branding & Graphics",
+    image: "/FlourishMore1.jpg",
+  },
+  {
+    id: 5,
+    title: "Meet me Social Media Ads",
     category: "Others",
     image: "/ALTE MDT 1_050714.jpg",
   },
   {
-    id: 5,
+    id: 6,
     title: "Mighticiti Website",
     category: "Website & UI/UX",
     image: "/mighticiti.jpg",
     link: "https://mighticiti.com",
   },
   {
-    id: 6,
+    id: 7,
     title: "Mission Aware Defense",
     category: "Website & UI/UX",
-    image: "/missionaware-cover.png",
-  },
-  {
-    id: 7,
-    title: "Press Print Pro",
-    category: "Website & UI/UX",
-    image: "/pressprintpro-cover.png",
-    link: "http://pressprintpro.espwebsites.com",
+    image: "/AwareDefenseHomeBanner.PNG",
+    link: "https://mission-aware-tactical-ui.lovable.app/",
   },
   {
     id: 8,
-    title: "Impress Athletix",
+    title: "Press Print Pro",
     category: "Website & UI/UX",
-    image: "/impressathletix.jpg",
-    link: "https://impressathletix.com",
+    image: "/pressprintpro-espwebsites.png",
+    link: "http://pressprintpro.espwebsites.com",
   },
   {
     id: 9,
-    title: "Podcast Print Designs",
+    title: "Impress Athletix",
+    category: "Website & UI/UX",
+    image: "/impressathletix.PNG",
+    link: "https://impressathletix.com",
+  },
+  {
+    id: 10,
+    title: "Cookbook",
     category: "Branding & Graphics",
-    image: "/podcast-print-designs.jpg",
+    image: "/P4JQUM1.jpg",
+  },
+  {
+    id: 11,
+    title: "Temi's Trove Logo",
+    category: "Branding & Graphics",
+    image: "/TemisTrove.jpg",
+  },
+  {
+    id: 12,
+    title: "Gbemi Splendid",
+    category: "Branding & Graphics",
+    image: "/GbemSplemdid.jpg",
+  },
+  {
+    id: 13,
+    title: "Hero Medallion",
+    category: "Website & UI/UX",
+    image: "/heromedallions.png",
+    link: "https://heromedallions.com/",
+  },
+  {
+    id: 14,
+    title: "Sapient Ragal",
+    category: "Branding & Graphics",
+    image: "/sapientRagalLogo.jpg",
   },
 ];
 
@@ -92,7 +125,7 @@ export default function ProjectsSection() {
   return (
     <section
       id="projects"
-      className="pt-15 bg-[#0a0714] text-[#F5F5F5] selection:bg-purple-600/30 selection:text-white"
+      className="pt-12 bg-[#0a0714] text-[#F5F5F5] selection:bg-purple-600/30 selection:text-white"
     >
       <section className="relative h-[50vh] flex items-center justify-center">
         {/* <Image
@@ -152,6 +185,176 @@ export default function ProjectsSection() {
           ))}
         </div>
       </div>
+
+      {/* Divider */}
+      <div className="h-[1px] w-full my-12 bg-gradient-to-r from-transparent via-white/20 to-transparent"></div>
+
+      {/* WHY ME / WHY WORK WITH ME */}
+      <section className="py-6 container mx-auto px-6 max-w-7xl">
+        <h2 className="text-3xl font-bold text-center text-purple-400 mb-8">
+          Why work with me
+        </h2>
+        <div className="grid gap-6 md:grid-cols-2">
+          <motion.div
+            whileHover={{ scale: 1.03 }}
+            className="rounded-2xl p-6 bg-purple-800/10 shadow-md"
+          >
+            <h3 className="text-lg font-semibold text-white mb-2">
+              Clear Communication
+            </h3>
+            <p className="text-gray-300 text-sm">
+              I listen, explain clearly, and keep you updated every step of the
+              way.
+            </p>
+          </motion.div>
+
+          <motion.div
+            whileHover={{ scale: 1.03 }}
+            className="rounded-2xl p-6 bg-purple-800/10 shadow-md"
+          >
+            <h3 className="text-lg font-semibold text-white mb-2">
+              Practical Solutions
+            </h3>
+            <p className="text-gray-300 text-sm">
+              I focus on work that helps your business — not just what looks
+              cool.
+            </p>
+          </motion.div>
+
+          <motion.div
+            whileHover={{ scale: 1.03 }}
+            className="rounded-2xl p-6 bg-purple-800/10 shadow-md"
+          >
+            <h3 className="text-lg font-semibold text-white mb-2">
+              Attention to Detail
+            </h3>
+            <p className="text-gray-300 text-sm">
+              From pixels to performance, I make sure everything is polished.
+            </p>
+          </motion.div>
+
+          <motion.div
+            whileHover={{ scale: 1.03 }}
+            className="rounded-2xl p-6 bg-purple-800/10 shadow-md"
+          >
+            <h3 className="text-lg font-semibold text-white mb-2">
+              Reliable Support
+            </h3>
+            <p className="text-gray-300 text-sm">
+              I provide ongoing help and clear handoffs so your project stays
+              healthy.
+            </p>
+          </motion.div>
+        </div>
+      </section>
+
+      {/* Divider */}
+      <div className="h-[1px] w-full my-12 bg-gradient-to-r from-transparent via-white/20 to-transparent"></div>
+
+      {/* FAQ (Accordion) */}
+      <section className="container mx-auto px-6 max-w-7xl py-8">
+        <h2 className="text-3xl font-bold text-center text-purple-400 mb-8">
+          Frequently Asked Questions
+        </h2>
+
+        <div className="space-y-4">
+          <details className="group rounded-2xl p-5 bg-purple-800/8">
+            <summary className="cursor-pointer font-medium text-white list-none">
+              How long does a typical website project take?
+            </summary>
+            <div className="mt-3 text-gray-300 text-sm">
+              Timelines vary by scope, a website design and development can be
+              completed and delivered in few days to weeks depending on the
+              complexity. I’ll share a clear timeline after the discovery call.
+            </div>
+          </details>
+
+          <details className="group rounded-2xl p-5 bg-purple-800/8">
+            <summary className="cursor-pointer font-medium text-white list-none">
+              Do you work with clients outside my country?
+            </summary>
+            <div className="mt-3 text-gray-300 text-sm">
+              Yes, I work with clients globally. We communicate over email,
+              calls, and collaboration tools to keep things smooth.
+            </div>
+          </details>
+
+          <details className="group rounded-2xl p-5 bg-purple-800/8">
+            <summary className="cursor-pointer font-medium text-white list-none">
+              Will I be able to update the site myself?
+            </summary>
+            <div className="mt-3 text-gray-300 text-sm">
+              Absolutely. I can build sites on WordPress or provide a simple
+              admin panel and documentation so you can make edits easily.
+            </div>
+          </details>
+
+          <details className="group rounded-2xl p-5 bg-purple-800/8">
+            <summary className="cursor-pointer font-medium text-white list-none">
+              Can you handle both design and development?
+            </summary>
+            <div className="mt-3 text-gray-300 text-sm">
+              Yes, I handle everything from UI/UX design to front-end and basic
+              back-end development. This helps maintain a consistent look and
+              feel across your project.
+            </div>
+          </details>
+
+          <details className="group rounded-2xl p-5 bg-purple-800/8">
+            <summary className="cursor-pointer font-medium text-white list-none">
+              Do you redesign existing websites?
+            </summary>
+            <div className="mt-3 text-gray-300 text-sm">
+              Definitely. I can audit your current website, modernize its
+              layout, improve performance, and enhance user experience without
+              losing your existing content or SEO value.
+            </div>
+          </details>
+
+          <details className="group rounded-2xl p-5 bg-purple-800/8">
+            <summary className="cursor-pointer font-medium text-white list-none">
+              What do you need from me to get started?
+            </summary>
+            <div className="mt-3 text-gray-300 text-sm">
+              I’ll need your brand assets (logo, colors, content, etc.), a short
+              description of your goals, and any reference websites or
+              inspirations you have in mind.
+            </div>
+          </details>
+
+          <details className="group rounded-2xl p-5 bg-purple-800/8">
+            <summary className="cursor-pointer font-medium text-white list-none">
+              What if I need support after launch?
+            </summary>
+            <div className="mt-3 text-gray-300 text-sm">
+              I offer ongoing support and maintenance options — or one-off
+              updates. We can discuss the right plan for your needs.
+            </div>
+          </details>
+
+          <details className="group rounded-2xl p-5 bg-purple-800/8">
+            <summary className="cursor-pointer font-medium text-white list-none">
+              Can you integrate third-party tools like payment gateways or
+              booking systems?
+            </summary>
+            <div className="mt-3 text-gray-300 text-sm">
+              Absolutely. I can integrate systems like Paystack, Stripe,
+              WhatsApp, Calendly, or others that fit your business workflow.
+            </div>
+          </details>
+
+          <details className="group rounded-2xl p-5 bg-purple-800/8">
+            <summary className="cursor-pointer font-medium text-white list-none">
+              What if I don’t have a design idea yet?
+            </summary>
+            <div className="mt-3 text-gray-300 text-sm">
+              No problem at all. I’ll help you with creative direction — from
+              color palette and typography to layout suggestions — that align
+              perfectly with your brand personality.
+            </div>
+          </details>
+        </div>
+      </section>
 
       {/* CTA Section */}
       <section
