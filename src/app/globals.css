@@ -1,1 +1,24 @@
 @import "tailwindcss";
+
+@theme {
+  --color-primary-light: #15457f;
+  --color-primary: #06175d;
+  --color-primary-dark: #0b1659;
+  --color-tertiary: #6d8ba6;
+  --color-secondary-light: #ff0011;
+  --color-secondary: #bf0413;
+  --color-secondary-dark: #73030d;
+}
+
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-marquee {
+  animation: marquee 28s linear infinite;
+}

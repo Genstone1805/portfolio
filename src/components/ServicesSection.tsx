@@ -15,26 +15,31 @@ const services = [
 export default function ServicesSection() {
   const cards = [
     {
-      title: "UI/UX Design",
-      desc: "I design clean, modern interfaces that are easy to use and visually engaging.",
+      title: "Backend Development",
+      desc: "A fast, secure, clean, well-structured, scalable and robust API systems that power reliable web applications.",
       bullets: [
-        "Wireframes & Prototypes",
-        "Web & App UI Design",
-        "Design systems",
+        "Python, Django & FastAPI",
+        "RESTful API Development",
+        "Database Design (MySQL & PostgreSQL)",
+        "Performance & Security",
       ],
     },
     {
-      title: "Web Development",
-      desc: "Fast, responsive websites that look great and perform smoothly, from business sites to portfolios and online stores.",
-      bullets: ["Custom Website", "Shopify / WordPress", "Analytics & SEO"],
+      title: "Frontend Development",
+      desc: "A modern user experience that follows SEO best practices, Core Web Vitals and strong performance across all devices.",
+      bullets: [
+        "UI/UX Implementation",
+        "Performance & Core Web Vitals",
+        "SEO & Mobile Responsiveness",
+      ],
     },
     {
-      title: "Brand Identity & Graphics",
-      desc: "visuals that tell your story and make your brand stand out.",
+      title: "Website Maintenance",
+      desc: "I manage websites for businesses by handling updates, monitoring performance, and keeping sites running smoothly and securely.",
       bullets: [
-        "Logos & Brand Identity",
-        "Social Media Designs",
-        "Flyers, Posters & Banners",
+        "Ongoing Maintenance",
+        "Performance & SEO Upkeep",
+        "Continuous Improvements",
       ],
     },
   ];

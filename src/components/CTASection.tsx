@@ -1,5 +1,6 @@
 import * as motion from "motion/react-client";
 import ScrollProgress from "./ScrollProgress";
+import Link from "next/link";
 
 export default function CTASection() {
   return (
@@ -13,7 +14,7 @@ export default function CTASection() {
             viewport={{ once: true }}
             className="text-3xl font-extrabold md:text-4xl"
           >
-            Got a project? Let’s make it feel premium.
+            Contact Me?
           </motion.h2>
           <motion.p
             initial={{ opacity: 0, y: 24 }}
@@ -25,25 +26,28 @@ export default function CTASection() {
             plan, scope, and budget range.
           </motion.p>
           <div className="mt-8 flex flex-wrap items-center justify-center gap-3">
-            <a
-              href="mailto:jakedamilare@gmail.com?subject=Project%20Inquiry%20—%20Bcode&body=Hi%20Blessing,%20we'd%20like%20to%20work%20with%20you%20on..."
+            <Link
+              target="_blank"
+              href="mailto:gusanujoshua39@gmail.com?subject=Hi%20Joshua,%20I%20have%20a%20project%20idea%20and%20would%20love%20to%20discuss%20it%20with%20you."
               className="rounded-2xl bg-gradient-to-br from-purple-600 to-amber-400 px-6 py-3 font-semibold text-[#0a0714] shadow-lg shadow-purple-900/30 transition hover:brightness-110"
             >
               Email me
-            </a>
-            <a
-              href="https://wa.me/2349064612799?text=Hi%20Blessing%2C%20I%27d%20love%20to%20discuss%20a%20project."
+            </Link>
+            <Link
+              target="_blank"
+              href="https://wa.me/qr/Z4PQRHIORXZCJ1?text=Hi%20Joshua,%20I%20have%20a%20project%20idea%20and%20would%20love%20to%20discuss%20it%20with%20you.%20My%20name%20is%E2%80%A6"
               className="rounded-2xl border border-white/15 px-6 py-3 font-semibold text-white/90 backdrop-blur transition hover:bg-white/5"
             >
               WhatsApp
-            </a>
-            <a
+            </Link>
+            <Link
+              target="_blank"
               href="/Blessing-Jacob-A_designer&developer_CV.pdf"
               download="Blessing-Jacob-A_CV.pdf"
               className="rounded-2xl border border-white/15 px-6 py-3 text-sm text-zinc-300 hover:bg-white/5"
             >
               Download Résumé
-            </a>
+            </Link>
           </div>
         </div>
       </section>

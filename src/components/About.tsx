@@ -33,22 +33,29 @@ export default function About() {
           className="md:col-span-6"
         >
           <h2 className="text-3xl font-extrabold md:text-4xl">
-            Design that slaps. Code that ships.
+            Website Management & Continuous Improvement.
           </h2>
           <p className="mt-4 max-w-prose text-zinc-300">
-            I help businesses and creators build stunning websites, craft
-            powerful brand identities, and bring ideas to life digitally. I
-            focus on fast, visually appealing, and high-converting designs that
-            create a lasting impression. My process is simple: discover the
-            business goal, design with intent, and ship with clean, maintainable
-            code.
+            I also manage live websites to ensure site remains secure, fast, and
+            reliable over time. This includes regular updates, performance
+            monitoring, SEO maintenance, and proactive issue resolution. I
+            handle problems before they affect users or business outcomes.
+          </p>
+          <p className="mt-4 max-w-prose text-zinc-300">
+            Beyond maintenance, I continuously optimize and redesign any part of
+            the website when needed, aligning it with the latest design trends
+            and modern UX standards. The goal is simple: keep your website
+            current, visually relevant, and performing at a high level as your
+            brand and audience evolve.
           </p>
           <ul className="mt-6 grid grid-cols-1 gap-3 sm:grid-cols-2">
             {[
-              "Pixel-perfect UI/UX",
-              "Conversion-focused copy",
-              "Production-grade Web Solutions",
-              "Accessible, responsive layouts",
+              "Adaptability",
+              "User-Centered Thinking",
+              "Performance Focus",
+              "Security Awareness",
+              "SEO Responsibility",
+              "Clear Communication",
             ].map((t) => (
               <li key={t} className="flex items-center gap-3 text-zinc-200">
                 <span className="h-2 w-2 rounded-full bg-amber-400" /> {t}
@@ -66,9 +73,9 @@ export default function About() {
             <h3 className="font-semibold text-white">Quick Stats</h3>
             <div className="mt-4 grid grid-cols-2 gap-4 md:grid-cols-3">
               {[
-                ["5+", "Years creating"],
-                ["30+", "Projects shipped"],
-                ["1.2s", "Typical LCP"],
+                ["7+", "Years of creating"],
+                ["30+", "Projects completed"],
+                ["50+", "Tools Mastered"],
               ].map(([n, l]) => (
                 <div
                   key={l}

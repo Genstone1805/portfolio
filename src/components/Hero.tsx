@@ -22,46 +22,39 @@ export default function Hero() {
             className="mb-4 inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-3 py-1 text-xs text-zinc-300"
           >
             <span className="h-2 w-2 rounded-full bg-emerald-400" /> Available
-            for select projects
           </motion.p>
           <motion.h1
             variants={item}
             className="text-4xl font-black leading-tight md:text-6xl"
           >
-            I design & code{" "}
+            Gusanu {" "}
             <span className="bg-gradient-to-br from-amber-300 via-fuchsia-300 to-purple-400 bg-clip-text text-transparent">
-              fast, premium
+              Joshua
             </span>{" "}
-            websites that convert.
+            {/* Web developer. */}
           </motion.h1>
           <motion.p
             variants={item}
             className="mt-5 max-w-xl text-lg text-zinc-300"
           >
-            I’m{" "}
-            <span className="font-semibold text-white">
-              Blessing Jacob A. (Bcode)
-            </span>
-            , a Designer & Web Developer. I build polished UI, production-grade
-            web solutions, and brand systems that make businesses feel
-            trustworthy from first click.
+            I am a Full Stack web developer and site manager. I build high-quality web experiences that are fast, well-structured, and easy to scale. I focus on clean code, strong performance, SEO best practices, and user interfaces that are reliable, maintainable, and built to grow with the product. 
           </motion.p>
           <motion.div variants={item} className="mt-8 flex flex-wrap gap-3">
             <a
-              href="#work"
+              href="#contact"
               className="rounded-2xl bg-gradient-to-br from-purple-600 to-amber-400 px-5 py-3 font-semibold text-[#0a0714] shadow-lg shadow-purple-900/30 transition hover:brightness-110"
             >
-              See projects
+              Get Started
             </a>
             <a
-              href="#contact"
+              href="/about"
               className="rounded-2xl border border-white/15 px-5 py-3 font-semibold text-white/90 backdrop-blur transition hover:bg-white/5"
             >
-              Start a project
+              About me
             </a>
           </motion.div>
           <motion.div variants={item} className="mt-6 text-sm text-zinc-400">
-            • Frontend • Backend • UI/UX • Visual Design • Database Management
+            • Frontend • Backend • Database • SEO • Performance Monitoring • Load Balancing
           </motion.div>
         </motion.div>
 
@@ -76,7 +69,7 @@ export default function Hero() {
             {/* <div className="h-full w-full rounded-2xl bg-[url('/blessingjacob.png')] bg-cover bg-center" /> */}
             <div className="h-full w-full rounded-2xl overflow-hidden relative">
               <Image
-                src="/blessingjacob.png"
+                src="/gusanu-joshua.webp"
                 alt="Blessing Jacob A."
                 fill
                 className="object-cover object-center"

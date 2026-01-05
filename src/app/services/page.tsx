@@ -1,5 +1,7 @@
 "use client";
 
+import FAQ from "@/components/FAQ";
+import CTASection2 from "@/components/CTASection2";
 import ScrollProgress from "@/components/ScrollProgress";
 import { motion } from "framer-motion";
 import Image from "next/image";
@@ -13,12 +15,17 @@ export default function ServicesPage() {
       <ScrollProgress />
       {/* Hero Section */}
       <section className="relative h-[50vh] flex items-center justify-center">
-        <Image
+        <img
+          src="https://scopicsoftware.com/static/hero-background-ba7ab5d15dfafb129e2fe94bea2cad3b.jpg"
+          alt="Services Background"
+          className="object-cover absolute opacity-40 inset-0"
+        />
+        {/* <Image
           src="/services-bg.webp"
           alt="Services Background"
           fill
           className="object-cover opacity-40"
-        />
+        /> */}
         <div className="absolute inset-0 bg-purple-950/70"></div>
         <motion.h1
           initial={{ opacity: 0, y: 50 }}
@@ -43,15 +50,11 @@ export default function ServicesPage() {
           >
             <FaCode className="text-6xl text-cyan-400 mb-6" />
             <h3 className="text-2xl font-semibold text-purple-300 mb-4">
-              Web Development
+              Backend Development
             </h3>
             <p className="text-gray-300 text-base leading-relaxed">
-              Building fast, scalable websites using React, Next.js, and also{" "}
-              <span className="text-purple-400 font-medium">
-                Shopify & WordPress
-              </span>{" "}
-              for flexible solutions. From landing pages to full-stack web apps,
-              I ensure performance and user delight.
+              A fast, secure, clean, well-structured, scalable and robust API
+              systems that power reliable web applications.
             </p>
           </motion.div>
 
@@ -62,11 +65,11 @@ export default function ServicesPage() {
           >
             <FaPencilRuler className="text-5xl text-amber-400 mb-4" />
             <h3 className="text-xl font-semibold text-purple-300 mb-2">
-              Graphic & Brand Design
+              Frontend Development
             </h3>
             <p className="text-gray-300 text-sm leading-relaxed">
-              Crafting memorable brand identities, social designs, and sleek
-              visuals that speak louder than words.
+              A modern user experience that follows SEO best practices, Core Web
+              Vitals and strong performance across all devices.
             </p>
           </motion.div>
 
@@ -77,11 +80,11 @@ export default function ServicesPage() {
           >
             <SiFigma className="text-5xl text-pink-400 mb-4" />
             <h3 className="text-xl font-semibold text-purple-300 mb-2">
-              UI/UX Design
+              Site Management
             </h3>
             <p className="text-gray-300 text-sm leading-relaxed">
-              Designing interfaces that are not just beautiful, but intuitive
-              and user-first for websites & apps.
+              I manage websites for businesses by handling updates, monitoring
+              performance, and keeping sites running smoothly and securely.
             </p>
           </motion.div>
 
@@ -92,11 +95,12 @@ export default function ServicesPage() {
           >
             <SiShopify className="text-5xl text-green-400 mb-4" />
             <h3 className="text-xl font-semibold text-purple-300 mb-2">
-              Shopify Development
+              Content Management System
             </h3>
             <p className="text-gray-300 text-sm leading-relaxed">
-              Custom Shopify stores tailored for eCommerce brands that need
-              performance, scalability, and sleek design.
+              I build, customize, and manage websites on CMS platforms like
+              Shopify, WordPress, Wix, Shift4shop, Bigcommerce and other major
+              CMS solutions.
             </p>
           </motion.div>
 
@@ -107,12 +111,12 @@ export default function ServicesPage() {
           >
             <FaChartBar className="text-5xl text-blue-400 mb-4" />
             <h3 className="text-xl font-semibold text-purple-300 mb-2">
-              Data Analysis & Project Writing
+              Automation & AI-Powered Solutions
             </h3>
             <p className="text-gray-300 text-sm leading-relaxed">
-              Analyzing & Transforming raw data into actionable insights,
-              visualization, to empower decision-making, alongside academic and
-              professional project writing.
+              I create automated and AI-powered workflows on Zapier, Make, and
+              other automation and AI platforms to reduce manual work and
+              improve efficiency by connecting the right tools.
             </p>
           </motion.div>
         </div>
@@ -157,138 +161,10 @@ export default function ServicesPage() {
       {/* Divider */}
       <div className="h-[1px] w-full my-12 bg-gradient-to-r from-transparent via-white/20 to-transparent"></div>
 
-      {/* FAQ (Accordion) */}
-      <section className="container mx-auto px-6 max-w-7xl py-12">
-        <h2 className="text-3xl font-bold text-center text-purple-400 mb-8">
-          Frequently Asked Questions
-        </h2>
-
-        <div className="space-y-4">
-          <details className="group rounded-2xl p-5 bg-purple-800/8">
-            <summary className="cursor-pointer font-medium text-white list-none">
-              How long does a typical website project take?
-            </summary>
-            <div className="mt-3 text-gray-300 text-sm">
-              Timelines vary by scope, a website design and development can be
-              completed and delivered in few days to weeks depending on the
-              complexity. I’ll share a clear timeline after the discovery call.
-            </div>
-          </details>
-
-          <details className="group rounded-2xl p-5 bg-purple-800/8">
-            <summary className="cursor-pointer font-medium text-white list-none">
-              Do you work with clients outside my country?
-            </summary>
-            <div className="mt-3 text-gray-300 text-sm">
-              Yes, I work with clients globally. We communicate over email,
-              calls, and collaboration tools to keep things smooth.
-            </div>
-          </details>
-
-          <details className="group rounded-2xl p-5 bg-purple-800/8">
-            <summary className="cursor-pointer font-medium text-white list-none">
-              Will I be able to update the site myself?
-            </summary>
-            <div className="mt-3 text-gray-300 text-sm">
-              Absolutely. I can build sites on WordPress or provide a simple
-              admin panel and documentation so you can make edits easily.
-            </div>
-          </details>
-
-          <details className="group rounded-2xl p-5 bg-purple-800/8">
-            <summary className="cursor-pointer font-medium text-white list-none">
-              Can you handle both design and development?
-            </summary>
-            <div className="mt-3 text-gray-300 text-sm">
-              Yes, I handle everything from UI/UX design to front-end and basic
-              back-end development. This helps maintain a consistent look and
-              feel across your project.
-            </div>
-          </details>
-
-          <details className="group rounded-2xl p-5 bg-purple-800/8">
-            <summary className="cursor-pointer font-medium text-white list-none">
-              Do you redesign existing websites?
-            </summary>
-            <div className="mt-3 text-gray-300 text-sm">
-              Definitely. I can audit your current website, modernize its
-              layout, improve performance, and enhance user experience without
-              losing your existing content or SEO value.
-            </div>
-          </details>
-
-          <details className="group rounded-2xl p-5 bg-purple-800/8">
-            <summary className="cursor-pointer font-medium text-white list-none">
-              What do you need from me to get started?
-            </summary>
-            <div className="mt-3 text-gray-300 text-sm">
-              I’ll need your brand assets (logo, colors, content, etc.), a short
-              description of your goals, and any reference websites or
-              inspirations you have in mind.
-            </div>
-          </details>
-
-          <details className="group rounded-2xl p-5 bg-purple-800/8">
-            <summary className="cursor-pointer font-medium text-white list-none">
-              What if I need support after launch?
-            </summary>
-            <div className="mt-3 text-gray-300 text-sm">
-              I offer ongoing support and maintenance options — or one-off
-              updates. We can discuss the right plan for your needs.
-            </div>
-          </details>
-
-          <details className="group rounded-2xl p-5 bg-purple-800/8">
-            <summary className="cursor-pointer font-medium text-white list-none">
-              Can you integrate third-party tools like payment gateways or
-              booking systems?
-            </summary>
-            <div className="mt-3 text-gray-300 text-sm">
-              Absolutely. I can integrate systems like Paystack, Stripe,
-              WhatsApp, Calendly, or others that fit your business workflow.
-            </div>
-          </details>
-
-          <details className="group rounded-2xl p-5 bg-purple-800/8">
-            <summary className="cursor-pointer font-medium text-white list-none">
-              What if I don’t have a design idea yet?
-            </summary>
-            <div className="mt-3 text-gray-300 text-sm">
-              No problem at all. I’ll help you with creative direction — from
-              color palette and typography to layout suggestions — that align
-              perfectly with your brand personality.
-            </div>
-          </details>
-        </div>
-      </section>
+      <FAQ />
 
       {/* CTA Section */}
-      <section
-        id="contact"
-        className="px-6 md:px-20 text-center py-12 bg-gradient-to-r from-amber-900/10 to-purple-950/50"
-      >
-        <h2 className="text-2xl md:text-4xl font-bold mb-4">
-          Ready to bring your ideas to life?
-        </h2>
-        <p className="text-gray-300 max-w-xl mx-auto mb-6">
-          Whether you need branding, a modern UI/UX, or a powerful website, I’ll
-          deliver work that makes an impact.
-        </p>
-        <div className="mt-8 flex flex-wrap items-center justify-center gap-3">
-          <a
-            href="mailto:jakedamilare@gmail.com?subject=Project%20Inquiry%20—%20Bcode&body=Hi%20Blessing,%20we'd%20like%20to%20work%20with%20you%20on..."
-            className="rounded-2xl bg-gradient-to-br from-purple-600 to-amber-400 px-6 py-3 font-semibold text-[#0a0714] shadow-lg shadow-purple-900/30 transition hover:brightness-110"
-          >
-            Email me
-          </a>
-          <a
-            href="https://wa.me/2349064612799?text=Hi%20Blessing%2C%20I%27d%20love%20to%20discuss%20a%20project."
-            className="rounded-2xl border border-white/15 px-6 py-3 font-semibold text-white/90 backdrop-blur transition hover:bg-white/5"
-          >
-            WhatsApp
-          </a>
-        </div>
-      </section>
+      <CTASection2 />
     </main>
   );
 }

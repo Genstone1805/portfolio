@@ -107,9 +107,9 @@ export default function Navbar() {
         {/* Wrapper */}
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
-          <Link href="#home" className="group inline-flex items-center gap-2">
-            <span className="h-8 w-8 rounded-2xl bg-gradient-to-br from-purple-500 to-amber-400" />
-            <span className="font-black tracking-wide text-white">Bcode</span>
+          <Link href="/" className="group inline-flex items-center gap-2">
+            <img src="/logo.webp" width={58} height={58} className="size-12 md:size-16" alt="logo" />
+            {/* <span className="font-black tracking-wide text-white">Bcode</span> */}
           </Link>
 
           {/* Desktop Menu */}

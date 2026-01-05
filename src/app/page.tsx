@@ -7,96 +7,81 @@ import CTASection from "@/components/CTASection";
 import NoiseBg from "@/components/NoiseBg";
 import BrandsBar from "@/components/BrandsBar";
 import ScrollProgress from "@/components/ScrollProgress";
-// import { desc } from "framer-motion/client";
 
-// Example testimonials data; replace with your actual data or import as needed
 const testimonials = [
   {
-    name: "Mighticiti",
+    name: "Aduraleke",
+    image: "/team/adura.webp",
     quote:
-      "Blessing Jacob turned our vision and website experience into a premium digital product that feels world-class. Everyone loves it.",
-    role: "Mighticiti Founder",
+    "Aduraleke is part of the frontend team, focused on turning designs into smooth, responsive user interfaces. He contributes clean, reliable code and helps deliver consistent and user-friendly web experiences.",
+    role: "Frontend Developer",
   },
   {
-    name: "Temi T",
+    name: "Jcob (B-Code)",
+    image: "/team/blessingjacob.webp",
     quote:
-      "He took scattered ideas and built a brand system that looks polished and professional. It instantly built trust.",
-    role: "Founder, Temi's Trove",
+      "Jacob is a key member of the product team, bridging design and development. He helps shape intuitive user experiences, creates strong visual designs, and supports frontend implementation to ensure ideas are delivered clearly.",
+    role: "UI/UX Designer, Graphic Designer & Frontend Developer",
   },
 ];
 
 const projects = () => [
-  // {
-  //   title: "Mighticiti Website",
-  //   tag: "Web Design & Development",
-  //   description:
-  //     "A clean, professional website built to give the brand a trustworthy digital presence with smooth user experience.",
-  //   img: "/projects/mighticiti-cover.png",
-  //   href: "/projects",
-  // },
-
   {
-    title: "Logo and Brand Identity Designs",
-    tag: "Logo & Brand Identity",
+    title: "Anki Remote",
+    tag: "Shopify Migration",
     description:
-      "Designed a warm and premium visual identity with logo, brand colors, and print materials that reflect elegance and trust.",
-    img: "/design-awesome-monogram-or-initial-letter-logo.png",
-    href: "/projects",
+      "Optimized theme assets, Liquid logic, and migrated the site to Shopify.",
+    img: "/projects/anki.webp",
+    href: "https://www.ankiremote.com/",
   },
-
-  // {
-  //   title: "Flourishmore Electricals",
-  //   tag: "Logo & Brand Identity",
-  //   description:
-  //     "Created a simple yet bold brand identity system that communicates reliability and professionalism.",
-  //   img: "/projects/flourishmore-cover.png",
-  //   href: "/projects",
-  // },
-
   {
     title: "Mission Aware Defense",
-    tag: "Web Design",
+    tag: "Lovable Project",
     description:
-      "Concept design for a defense brand website, combining clarity, confidence, and modern structure.",
-    img: "/AwareDefenseHomeBanner.PNG",
-    href: "/projects",
+      "Maintained clean, reusable, and scalable component structures.",
+    img: "/projects/AwareDefenseHomeBanner.webp",
+    href: "https://awaredefense.us/",
   },
-
   {
     title: "Press Print Pro",
-    tag: "Web Design & Development",
+    tag: "Shopify Migration",
     description:
-      "A responsive print-on-demand website built to make ordering faster and more seamless for customers.",
-    img: "/RDExpressPrints.PNG",
-    href: "/projects",
+      "Analyzed the existing platform and migrated the site to Shopify.",
+    img: "/projects/RDExpressPrints.webp",
+    href: "https://pressprintpro.com/",
   },
-
-  {
-    title: "Crybaby Tattoo",
-    tag: "E-Commerce Website",
-    description:
-      "Designed and developed a bold, artistic e-commerce website that fits the creative vibe of the tattoo brand.",
-    img: "CrybabyTattoo.png",
-    href: "/projects",
-  },
-
   {
     title: "Impress Athletix",
-    tag: "E-Commerce Website",
+    tag: "Big Commerce Theme",
     description:
-      "Built a fast, energetic online store that reflects the brand’s athletic spirit and premium look.",
-    img: "/RDExpressPrints.PNG",
-    href: "/projects",
+    "Built a BigCommerce themes using Stencil, Handlebars, and modern frontend.",
+    img: "/projects/impressathletix.webp",
+    href: "https://impressathletix.com/",
   },
-
   {
-    title: "E Magazines and Other Designs",
-    tag: "Graphic Design",
+    title: "Crybaby Tattoo",
+    tag: "Shopify Theme Development",
     description:
-      "Created social media visuals, print designs and a lot more for brands, maintaining consistent and catchy style.",
-    img: "/P4JQUM1.jpg",
-    href: "/projects",
+      "Built custom Shopify theme from scratch using Shopify Liquid.",
+    img: "/projects/CrybabyTattoo.webp",
+    href: "https://crybabytattooproducts.com/",
   },
+  {
+    title: "Carplay NAv",
+    tag: "Shopify Theme",
+    description:
+      "Built a BigCommerce themes using Stencil, Handlebars, and modern frontend.",
+    img: "/projects/carplay.webp",
+    href: "https://carplaynav.com/",
+  },
+  // {
+  //   title: "Mightyciti",
+  //   tag: "Developing",
+  //   description:
+  //     "Built a BigCommerce themes using Stencil, Handlebars, and modern frontend.",
+  //   img: "/projects/mightyciti.webp",
+  //   href: "https://mighticiti-v3-backend-hrav.vercel.app/",
+  // },
 ];
 
 export default function Home() {

@@ -20,13 +20,14 @@ export default function ProjectsSection({
           viewport={{ once: true }}
           className="text-3xl font-extrabold md:text-4xl"
         >
-          Selected Work
+          Projects
         </motion.h2>
-        <div className="mt-8 grid grid-cols-1 gap-6 md:grid-cols-3">
+        <div className="mt-8 grid grid-cols-2 gap-6 lg:grid-cols-3">
           {projects.map((p, i) => (
             <motion.a
-              key={p.title}
+              key={i}
               href={p.href}
+              target="_blank"
               initial={{ opacity: 0, y: 24 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
