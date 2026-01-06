@@ -1,10 +1,8 @@
 "use client";
-
-import { useState } from "react";
 import Link from "next/link";
 import FAQ from "@/components/FAQ";
 import CTASection2 from "@/components/CTASection2";
-// import Image from "next/image";
+import PageBanner from "@/components/PageBanner";
 import { motion } from "framer-motion";
 
 type Project = {
@@ -161,17 +159,7 @@ export default function ProjectsSection() {
       id="projects"
       className="pt-12 bg-[#0a0714] text-[#F5F5F5] selection:bg-purple-600/30 selection:text-white"
     >
-      <section className="relative h-[50vh] flex items-center justify-center">
-        <div className="absolute inset-0 bg-purple-950/70"></div>
-        <motion.h1
-          initial={{ opacity: 0, y: 50 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8 }}
-          className="relative text-5xl font-bold text-center text-white drop-shadow-lg"
-        >
-          My Projects
-        </motion.h1>
-      </section>
+      <PageBanner title="My Projects" />
 
       <div className="container mx-auto px-6 pt-10 text-center">
         {/* Projects Grid */}

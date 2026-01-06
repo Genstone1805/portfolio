@@ -3,8 +3,8 @@
 import FAQ from "@/components/FAQ";
 import CTASection2 from "@/components/CTASection2";
 import ScrollProgress from "@/components/ScrollProgress";
+import PageBanner from "@/components/PageBanner";
 import { motion } from "framer-motion";
-import Image from "next/image";
 import { FaCode, FaPencilRuler, FaChartBar } from "react-icons/fa";
 
 import { SiShopify, SiFigma } from "react-icons/si";
@@ -14,28 +14,7 @@ export default function ServicesPage() {
     <main className="overflow-hidden text-gray-100 bg-[#0e0b1f]">
       <ScrollProgress />
       {/* Hero Section */}
-      <section className="relative h-[50vh] flex items-center justify-center">
-        <img
-          src="https://scopicsoftware.com/static/hero-background-ba7ab5d15dfafb129e2fe94bea2cad3b.jpg"
-          alt="Services Background"
-          className="object-cover absolute opacity-40 inset-0"
-        />
-        {/* <Image
-          src="/services-bg.webp"
-          alt="Services Background"
-          fill
-          className="object-cover opacity-40"
-        /> */}
-        <div className="absolute inset-0 bg-purple-950/70"></div>
-        <motion.h1
-          initial={{ opacity: 0, y: 50 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8 }}
-          className="relative text-5xl font-bold text-center text-white drop-shadow-lg"
-        >
-          My Services
-        </motion.h1>
-      </section>
+      <PageBanner title="My Services" />
 
       {/* My Services Grid */}
       <section className="py-15 container mx-auto px-6 max-w-7xl">

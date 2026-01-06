@@ -1,7 +1,12 @@
+import PageBanner from "@/components/PageBanner";
+
 export default function BlogPage() {
   return (
-    <div className="mt-15 p-10 text-center h-dvh flex justify-center items-center">
-      <h1 className="text-3xl font-bold">Blog Page Coming Soon</h1>
+    <div className="h-screen">
+      <PageBanner title="Blogs" />
+      <div className="mt-15 p-10 text-center flex justify-center items-center">
+        <h1 className="text-3xl font-bold">Blog Page Coming Soon</h1>
+      </div>
     </div>
   );
 }

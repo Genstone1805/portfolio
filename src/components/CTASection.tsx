@@ -42,11 +42,10 @@ export default function CTASection() {
             </Link>
             <Link
               target="_blank"
-              href="/Blessing-Jacob-A_designer&developer_CV.pdf"
-              download="Blessing-Jacob-A_CV.pdf"
+              href="/Gusanu-Joshua.pdf"
               className="rounded-2xl border border-white/15 px-6 py-3 text-sm text-zinc-300 hover:bg-white/5"
             >
-              Download Résumé
+              View Résumé
             </Link>
           </div>
         </div>

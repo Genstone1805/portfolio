@@ -5,11 +5,11 @@ import CTASection2 from "@/components/CTASection2";
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import Image from "next/image";
+import PageBanner from "@/components/PageBanner";
 import { FaReact, FaPython, FaWordpress } from "react-icons/fa";
 import {
   SiNextdotjs,
   SiTailwindcss,
-  SiHtml5,
   SiDjango,
   SiJavascript,
   SiFastapi,
@@ -26,23 +26,7 @@ export default function AboutPage() {
     <main className="overflow-hidden text-gray-100 bg-[#0e0b1f]">
       <ScrollProgress />
       {/* Hero Section */}
-      <section className="relative h-[50vh] flex items-center justify-center">
-        <Image
-          src="/blessingjacob.webp"
-          alt="About Background"
-          fill
-          className="object-cover opacity-40"
-        />
-        <div className="absolute inset-0 bg-purple-950/70"></div>
-        <motion.h1
-          initial={{ opacity: 0, y: 50 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8 }}
-          className="relative text-5xl font-bold text-center text-white drop-shadow-lg"
-        >
-          About Me
-        </motion.h1>
-      </section>
+      <PageBanner title="About Me" />
 
       <section className="container mx-auto max-w-7xl grid gap-10 px-6 py-15 md:grid-cols-2 items-start relative">
         {/* Text */}

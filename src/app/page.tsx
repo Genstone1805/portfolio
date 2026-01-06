@@ -7,13 +7,30 @@ import CTASection from "@/components/CTASection";
 import NoiseBg from "@/components/NoiseBg";
 import BrandsBar from "@/components/BrandsBar";
 import ScrollProgress from "@/components/ScrollProgress";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Gusanu Joshua | Full Stack Developer",
+  description:
+    "Building fast, secure, and scalable web solutions with modern frontend, backend APIs, CMS platforms, and automation",
+  openGraph: {
+    title: "Gusanu Joshua | Full Stack Developer",
+    description:
+      "Building fast, secure, and scalable web solutions with modern frontend, backend APIs, CMS platforms, and automation",
+    url: "/",
+    siteName: "Gusanu Joshua",
+    images: [{ url: "/graph.webp", width: 1200, height: 630 }],
+    locale: "en_US",
+    type: "website",
+  },
+};
 
 const testimonials = [
   {
     name: "Aduraleke",
     image: "/team/adura.webp",
     quote:
-    "Aduraleke is part of the frontend team, focused on turning designs into smooth, responsive user interfaces. He contributes clean, reliable code and helps deliver consistent and user-friendly web experiences.",
+      "Aduraleke is part of the frontend team, focused on turning designs into smooth, responsive user interfaces. He contributes clean, reliable code and helps deliver consistent and user-friendly web experiences.",
     role: "Frontend Developer",
   },
   {
@@ -54,7 +71,7 @@ const projects = () => [
     title: "Impress Athletix",
     tag: "Big Commerce Theme",
     description:
-    "Built a BigCommerce themes using Stencil, Handlebars, and modern frontend.",
+      "Built a BigCommerce themes using Stencil, Handlebars, and modern frontend.",
     img: "/projects/impressathletix.webp",
     href: "https://impressathletix.com/",
   },

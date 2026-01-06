@@ -7,34 +7,24 @@ import ScrollProgress from "@/components/ScrollProgress";
 
 const inter = Inter({ subsets: ["latin"] });
 
-// export const metadata: Metadata = {
-//   title: "Gusanu Joshua. | Full Stack Developer",
-//   description:
-//     "Portfolio of Gusanu Joshua.",
-//   openGraph: {
-//     title: "Blessing Jacob A. | Designer & Developer",
-//     description: "Portfolio of Blessing Jacob A. (Bcode)",
-//     url: "https://yourdomain.com",
-//     siteName: "Bcode",
-//     images: [{ url: "/og-image.jpg", width: 1200, height: 630 }],
-//     locale: "en_US",
-//     type: "website",
-//   },
-//   icons: {
-//     icon: [
-//       { url: "/favicon-16x16.png", sizes: "16x16", type: "image/png" },
-//       { url: "/favicon-32x32.png", sizes: "32x32", type: "image/png" },
-//       { url: "/favicon.ico", type: "image/x-icon" },
-//     ],
-//     apple: [
-//       { url: "/apple-touch-icon.png", sizes: "180x180", type: "image/png" },
-//     ],
-//     other: [
-//       { rel: "android-chrome-192x192", url: "/android-chrome-192x192.png" },
-//       { rel: "android-chrome-512x512", url: "/android-chrome-512x512.png" },
-//     ],
-//   },
-// };
+export const metadata: Metadata = {
+  title: "Gusanu Joshua | Full Stack Developer",
+  description:
+    "Building fast, secure, and scalable web solutions with modern frontend, backend APIs, CMS platforms, and automation",
+  openGraph: {
+    title: "Gusanu Joshua | Full Stack Developer",
+    description:
+      "Building fast, secure, and scalable web solutions with modern frontend, backend APIs, CMS platforms, and automation",
+    url: "/",
+    siteName: "Gusanu Joshua",
+    images: [{ url: "/graph.webp", width: 1200, height: 630 }],
+    locale: "en_US",
+    type: "website",
+  },
+  icons: {
+    icon: [{ url: "/favicon.ico", type: "image/x-icon" }],
+  },
+};
 
 export default function RootLayout({
   children,

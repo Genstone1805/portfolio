@@ -42,10 +42,9 @@ export default function CTASection() {
           <Link
             target="_blank"
             href="/Gusanu-Joshua.pdf"
-            download="Blessing-Jacob-A_CV.pdf"
             className="rounded-2xl border border-white/15 px-6 py-3 text-sm text-zinc-300 hover:bg-white/5"
           >
-            Download Résumé
+            View Résumé
           </Link>
         </div>
       </section>
