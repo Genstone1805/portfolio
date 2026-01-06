@@ -5,9 +5,9 @@ import CTASection2 from "@/components/CTASection2";
 import ScrollProgress from "@/components/ScrollProgress";
 import PageBanner from "@/components/PageBanner";
 import { motion } from "framer-motion";
-import { FaCode, FaPencilRuler, FaChartBar } from "react-icons/fa";
+import { FaCode, FaGlobe } from "react-icons/fa";
 
-import { SiShopify, SiFigma } from "react-icons/si";
+import { SiShopify, SiAutomattic, SiReact } from "react-icons/si";
 
 export default function ServicesPage() {
   return (
@@ -42,7 +42,7 @@ export default function ServicesPage() {
             whileHover={{ scale: 1.05 }}
             className="md:col-span-2 rounded-2xl bg-purple-800/10 p-8 shadow-md transition flex flex-col items-center text-center"
           >
-            <FaPencilRuler className="text-5xl text-amber-400 mb-4" />
+            <SiReact className="text-5xl text-amber-400 mb-4" />
             <h3 className="text-xl font-semibold text-purple-300 mb-2">
               Frontend Development
             </h3>
@@ -57,7 +57,7 @@ export default function ServicesPage() {
             whileHover={{ scale: 1.05 }}
             className="md:col-span-2 rounded-2xl bg-purple-800/10 p-8 shadow-md transition flex flex-col items-center text-center"
           >
-            <SiFigma className="text-5xl text-pink-400 mb-4" />
+            <FaGlobe className="text-5xl text-pink-400 mb-4" />
             <h3 className="text-xl font-semibold text-purple-300 mb-2">
               Site Management
             </h3>
@@ -88,7 +88,7 @@ export default function ServicesPage() {
             whileHover={{ scale: 1.05 }}
             className="md:col-span-2 rounded-2xl bg-purple-800/10 p-8 shadow-md transition flex flex-col items-center text-center"
           >
-            <FaChartBar className="text-5xl text-blue-400 mb-4" />
+            <SiAutomattic className="text-5xl text-blue-400 mb-4" />
             <h3 className="text-xl font-semibold text-purple-300 mb-2">
               Automation & AI-Powered Solutions
             </h3>
