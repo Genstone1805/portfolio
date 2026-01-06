@@ -7,23 +7,6 @@ import CTASection from "@/components/CTASection";
 import NoiseBg from "@/components/NoiseBg";
 import BrandsBar from "@/components/BrandsBar";
 import ScrollProgress from "@/components/ScrollProgress";
-import { Metadata } from "next";
-
-export const metadata: Metadata = {
-  title: "Gusanu Joshua | Full Stack Developer",
-  description:
-    "Building fast, secure, and scalable web solutions with modern frontend, backend APIs, CMS platforms, and automation",
-  openGraph: {
-    title: "Gusanu Joshua | Full Stack Developer",
-    description:
-      "Building fast, secure, and scalable web solutions with modern frontend, backend APIs, CMS platforms, and automation",
-    url: "/",
-    siteName: "Gusanu Joshua",
-    images: [{ url: "/graph.webp", width: 1200, height: 630 }],
-    locale: "en_US",
-    type: "website",
-  },
-};
 
 const testimonials = [
   {
@@ -34,7 +17,7 @@ const testimonials = [
     role: "Frontend Developer",
   },
   {
-    name: "Jcob (B-Code)",
+    name: "Jacob (B-Code)",
     image: "/team/blessingjacob.webp",
     quote:
       "Jacob is a key member of the product team, bridging design and development. He helps shape intuitive user experiences, creates strong visual designs, and supports frontend implementation to ensure ideas are delivered clearly.",
@@ -60,12 +43,11 @@ const projects = () => [
     href: "https://awaredefense.us/",
   },
   {
-    title: "Press Print Pro",
-    tag: "Shopify Migration",
-    description:
-      "Analyzed the existing platform and migrated the site to Shopify.",
-    img: "/projects/RDExpressPrints.webp",
-    href: "https://pressprintpro.com/",
+    title: "Mustard Vertual Card",
+    tag: "Html/CSS/Js",
+    description: "Took the design from a UI/UX and assisted to write the code",
+    img: "/projects/mustard.webp",
+    href: "https://mustard.ng/index",
   },
   {
     title: "Impress Athletix",

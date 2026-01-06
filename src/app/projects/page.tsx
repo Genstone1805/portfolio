@@ -27,6 +27,12 @@ const projects: Project[] = [
     link: "https://awaredefense.us/",
   },
   {
+    title: "Mustard Vertual Card",
+    tag: "Html/CSS/Js",
+    image: "/projects/mustard.webp",
+    link: "https://mustard.ng/index",
+  },
+  {
     title: "Press Print Pro",
     tag: "Shopify",
     image: "/projects/RDExpressPrints.webp",

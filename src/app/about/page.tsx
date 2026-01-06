@@ -21,7 +21,6 @@ import {
 
 export default function AboutPage() {
   const [expanded, setExpanded] = useState(false);
-  const [expanded1, setExpanded1] = useState(false);
   return (
     <main className="overflow-hidden text-gray-100 bg-[#0e0b1f]">
       <ScrollProgress />
