@@ -15,6 +15,8 @@ import {
   SiFastapi,
   SiSvelte,
   SiPostgresql,
+  SiDocker,
+  SiCelery,
   SiMysql,
   SiShopify,
 } from "react-icons/si";
@@ -231,6 +233,8 @@ export default function AboutPage() {
           <SiShopify className="text-emerald-500 hover:scale-110 transition" />
           <SiFastapi className="text-orange-400 hover:scale-110 transition" />
           <SiPostgresql className="text-indigo-400 hover:scale-110 transition" />
+          <SiDocker className="text-emerald-500 hover:scale-110 transition" />
+          <SiCelery className="text-pink-400  hover:scale-110 transition" />
         </div>
       </section>
 

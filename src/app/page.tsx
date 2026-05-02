@@ -27,60 +27,72 @@ const testimonials = [
 
 const projects = () => [
   {
-    title: "Anki Remote",
-    tag: "Shopify Migration",
+    title: "Mightyciti",
+    tag: "Backend and Dev Hubs",
     description:
-      "Optimized theme assets, Liquid logic, and migrated the site to Shopify.",
+      "Built the whole backend and managing the production environment",
+    img: "/projects/mightyciti.webp",
+    link: "https://mightyciti.com/",
+  },
+  {
+    title: "First Class Transfers",
+    tag: "Backend",
+    img: "/projects/firstclass.webp",
+    description: "Built the whole backend",
+    link: "https://firstclasstransfers.eu/",
+  },
+
+  {
+    title: "Vila Arpeggio",
+    tag: "Frontend",
+    description: "Designed the whole frontend",
+    img: "/projects/vila.webp",
+    link: "https://luzholidayvilla.com/",
+  },
+  {
+    title: "Scaftech",
+    tag: "Frontend",
+    description: "Designed and structured the whole frontend",
+    img: "/projects/scaftech.webp",
+    link: "https://academy.scaftechservices.com/",
+  },
+  {
+    title: "Open My Pro",
+    tag: "backend",
+    description: "Worked on the backend",
+    img: "/projects/omp.webp",
+    link: "https://openmypro.com/",
+  },
+  {
+    title: "Anki Remote",
+    tag: "Shopify",
+    description: "Built the theme and migrated the store to shopify",
     img: "/projects/anki.webp",
-    href: "https://www.ankiremote.com/",
+    link: "https://www.ankiremote.com/",
+  },
+  {
+    title: "Kyshmysh",
+    tag: "Shopify",
+    img: "/projects/lash.webp",
+    description: "Built the theme, Redesigned and optimized the store",
+    link: "https://www.kyshmysh.com",
+  },
+  {
+    title: "Lock Hub Cars",
+    tag: "Shopify",
+    img: "/projects/car.webp",
+    description:
+      "Redesigned the product page using liquid and optimized the store",
+    link: "https://lockhubcars.com/",
   },
   {
     title: "Mission Aware Defense",
-    tag: "Lovable Project",
+    tag: "Lovable",
     description:
-      "Maintained clean, reusable, and scalable component structures.",
+      "Maintained clean, reuseable and scalable component structures",
     img: "/projects/AwareDefenseHomeBanner.webp",
-    href: "https://awaredefense.us/",
+    link: "https://awaredefense.us/",
   },
-  {
-    title: "Mustard Vertual Card",
-    tag: "Html/CSS/Js",
-    description: "Took the design from a UI/UX and assisted to write the code",
-    img: "/projects/mustard.webp",
-    href: "https://mustard.ng/index",
-  },
-  {
-    title: "Impress Athletix",
-    tag: "Big Commerce Theme",
-    description:
-      "Built a BigCommerce themes using Stencil, Handlebars, and modern frontend.",
-    img: "/projects/impressathletix.webp",
-    href: "https://impressathletix.com/",
-  },
-  {
-    title: "Crybaby Tattoo",
-    tag: "Shopify Theme Development",
-    description:
-      "Built custom Shopify theme from scratch using Shopify Liquid.",
-    img: "/projects/CrybabyTattoo.webp",
-    href: "https://crybabytattooproducts.com/",
-  },
-  {
-    title: "Carplay NAv",
-    tag: "Shopify Theme",
-    description:
-      "Built a BigCommerce themes using Stencil, Handlebars, and modern frontend.",
-    img: "/projects/carplay.webp",
-    href: "https://carplaynav.com/",
-  },
-  // {
-  //   title: "Mightyciti",
-  //   tag: "Developing",
-  //   description:
-  //     "Built a BigCommerce themes using Stencil, Handlebars, and modern frontend.",
-  //   img: "/projects/mightyciti.webp",
-  //   href: "https://mighticiti-v3-backend-hrav.vercel.app/",
-  // },
 ];
 
 export default function Home() {

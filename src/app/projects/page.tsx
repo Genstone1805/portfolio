@@ -15,6 +15,60 @@ type Project = {
 
 const projects: Project[] = [
   {
+    title: "Mightyciti",
+    tag: "Backend",
+    image: "/projects/mightyciti.webp",
+    link: "https://mightyciti.com/",
+  },
+  {
+    title: "First Class Transfers",
+    tag: "Backend",
+    image: "/projects/firstclass.webp",
+    link: "https://firstclasstransfers.eu/",
+  },
+  {
+    title: "Vila Arpeggio",
+    tag: "Backend",
+    image: "/projects/vila.webp",
+    link: "https://luzholidayvilla.com/",
+  },
+  {
+    title: "Scaftech",
+    tag: "Frontend",
+    image: "/projects/scaftech.webp",
+    link: "https://academy.scaftechservices.com/",
+  },
+  {
+    title: "Open My Pro",
+    tag: "backend",
+    image: "/projects/omp.webp",
+    link: "https://openmypro.com/",
+  },
+  {
+    title: "Amp Motor Tech",
+    tag: "development",
+    image: "/projects/omp.webp",
+    link: "https://amp-motor-tech.vercel.app/",
+  },
+  {
+    title: "Silky Blinks",
+    tag: "Shopify",
+    image: "/projects/silkyblink.webp",
+    link: "https://silkyblink.com/",
+  },
+  {
+    title: "Kyshmysh",
+    tag: "Shopify",
+    image: "/projects/lash.webp",
+    link: "https://www.kyshmysh.com",
+  },
+  {
+    title: "Lock Hub Cars",
+    tag: "Shopify",
+    image: "/projects/car.webp",
+    link: "https://lockhubcars.com/",
+  },
+  {
     title: "Anki Remote",
     tag: "Shopify",
     image: "/projects/anki.webp",
@@ -28,7 +82,7 @@ const projects: Project[] = [
   },
   {
     title: "Mustard Vertual Card",
-    tag: "Html/CSS/Js",
+    tag: "Mobile App",
     image: "/projects/mustard.webp",
     link: "https://mustard.ng/index",
   },
@@ -55,13 +109,6 @@ const projects: Project[] = [
     tag: "Shopify",
     image: "/projects/carplay.webp",
     link: "https://carplaynav.com/",
-  },
-  {
-    title: "Mightyciti",
-    tag: "Developing",
-    image: "/projects/mightyciti.webp",
-    link: "https://mighticiti-v3-backend-hrav.vercel.app/",
-    dev: true,
   },
   {
     title: "Hero Medallions",
