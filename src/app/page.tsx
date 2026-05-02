@@ -32,50 +32,49 @@ const projects = () => [
     description:
       "Built the whole backend and managing the production environment",
     img: "/projects/mightyciti.webp",
-    link: "https://mightyciti.com/",
+    href: "https://mightyciti.com/",
   },
   {
     title: "First Class Transfers",
     tag: "Backend",
     img: "/projects/firstclass.webp",
     description: "Built the whole backend",
-    link: "https://firstclasstransfers.eu/",
+    href: "https://firstclasstransfers.eu/",
   },
-
   {
     title: "Vila Arpeggio",
     tag: "Frontend",
     description: "Designed the whole frontend",
     img: "/projects/vila.webp",
-    link: "https://luzholidayvilla.com/",
+    href: "https://luzholidayvilla.com/",
   },
   {
     title: "Scaftech",
     tag: "Frontend",
     description: "Designed and structured the whole frontend",
     img: "/projects/scaftech.webp",
-    link: "https://academy.scaftechservices.com/",
+    href: "https://academy.scaftechservices.com/",
   },
   {
     title: "Open My Pro",
     tag: "backend",
     description: "Worked on the backend",
     img: "/projects/omp.webp",
-    link: "https://openmypro.com/",
+    href: "https://openmypro.com/",
   },
   {
     title: "Anki Remote",
     tag: "Shopify",
     description: "Built the theme and migrated the store to shopify",
     img: "/projects/anki.webp",
-    link: "https://www.ankiremote.com/",
+    href: "https://www.ankiremote.com/",
   },
   {
     title: "Kyshmysh",
     tag: "Shopify",
     img: "/projects/lash.webp",
     description: "Built the theme, Redesigned and optimized the store",
-    link: "https://www.kyshmysh.com",
+    href: "https://www.kyshmysh.com",
   },
   {
     title: "Lock Hub Cars",
@@ -83,7 +82,7 @@ const projects = () => [
     img: "/projects/car.webp",
     description:
       "Redesigned the product page using liquid and optimized the store",
-    link: "https://lockhubcars.com/",
+    href: "https://lockhubcars.com/",
   },
   {
     title: "Mission Aware Defense",
@@ -91,7 +90,7 @@ const projects = () => [
     description:
       "Maintained clean, reuseable and scalable component structures",
     img: "/projects/AwareDefenseHomeBanner.webp",
-    link: "https://awaredefense.us/",
+    href: "https://awaredefense.us/",
   },
 ];
 
